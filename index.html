@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Petal Palette</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light">
+        <a href="#" class="navbar-brand mb-0 h1">
+            <img class="logo_main d-line-block align-top" src="images/petal-palette-logo.png"height="40" alt="logo">
+            <img class="logo_ver2 d-line-block align-top" src="images/petal-palette-logo_2.png" height="40" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav-list navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a href="shop.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Shop</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#bestSelling-section">
+                                Best Selling</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#collection-section">
+                                Collections</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#occasion-section">
+                                Occasions</a>
+                        </li>
+                        <li><a class="dropdown-item" href="allProducts.html">
+                                All Products</a>
+                        </li>
+    
+                    </ul>
+                </li>
+                <li class="nav-item active">
+                    <a href="#aboutSection" class="nav-link ">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#msgUs-section" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="cart-page.html" class="nav-link">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+    <section class="hero-section flex-center bg-center-cover">
+        <div class="hero-content">
+            <h1>We turn flowers into expressions of <span class="text-highlight">love</span> and <span class="text-highlight">joy</span>
+            </h1>
+            <p>
+                At Petal Palette, we specialize in crafting heartfelt floral arrangements, transforming nature's blooms into
+                emotional expressions of affection and happiness.
+            </p>
+            <a class="btn-link" href="allProducts.html">SHOP NOW</a>
+        </div>
+    </section>
+    <section class="choose-us flex-center">
+        <h2>Why choose Petal Palette?</h2>
+        <div class="choose-container flex-center">
+            <div class="choose-box flex-center red">
+                <img src="images/delivery-icon.png" alt="delivery-icon">
+                <p>Same day delivery <span class="nowrap">(for order until 4pm)</span></p>
+            </div>
+            <div class="choose-box flex-center blue">
+                <img src="images/delivery-range-icon.png" alt="delivery-icon">
+                <p>Flower Delivery Across Philippines</p>
+            </div>
+            <div class="choose-box flex-center green">
+                <img src="images/stay-fresh-icon.png" alt="delivery-icon">
+                <p>Stays Fresh for at least <span class="nowrap">7 Days</span></p>
+            </div>
+            <div class="choose-box flex-center yellow">
+                <img src="images/delivery-sched-icon.png" alt="delivery-icon">
+                <p>Choose your preferred delivery slot</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured-section">
+        <h2>Featured Products</h2>
+        <div class="featured-container">
+            <div class="featured-card ">
+              <a href="sunshineBliss.html" ><img class="img-fit-cover" src="images/sunshine.webp" alt="featured-img"></a>
+            </div>
+            <div class="featured-card">
+                <a href="roseHarmony.html" ><img class="img-fit-cover" src="images/rose-harmony.webp" alt="featured-img"></a>
+            </div>
+         </div>
+    </section>
+    <section class="bestselling" id="bestSelling-section">
+        <h2 >Best Selling Products</h2>
+        <div class="bs-container flex-center">
+            <div class="bs-box">
+                <img class="bs-img" src="images/best-selling-1.png" alt="celeste">
+                <h3>Celeste</h3>
+                    <div class="bs-rating">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p>14 reviews</p>
+                    </div>
+                <p class="bs-amount">$10.00</p>
+                <a href="celeste.html" class="btn-light text-no-decor">View Details</a>
+            </div>
+            <div class="bs-box">
+                <img class="bs-img" src="images/best-selling-2.png" alt="harmony">
+                <h3>Harmony</h3>
+                    <div class="bs-rating">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p>14 reviews</p>
+                    </div>
+                <p>$10.00</p>
+                <a href="harmony.html" class="btn-light text-no-decor">View Details</a>
+            </div>
+            <div class="bs-box blossom">
+                <img class="bs-img" src="images/best-selling-3.png" alt="blossom">
+                <h3>Blossom</h3>
+                    <div class="bs-rating">
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p>14 reviews</p>
+                    </div>
+                <p>$10.00</p>
+                <a href="blossom.html" class="btn-light text-no-decor">View Details</a>
+            </div>
+        </div>
+    </section>
+        <section class="product-category flex-center">
+            <h2>Product Categories</h2>
+            <div class="collection" id="collection-section">
+                <h3 > CHOOSE BY COLLECTION</h3>
+                <div class="collection-box grid-center">
+                    <div class="collection-card ">
+                        <a href="flowersInBox.html"><img
+                                class="img-fit-cover"
+                                src="images/flower-in-box.jpg"
+                                alt="flower in box">
+                            <div class="collection-content">
+                                <span>Flower in Box</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collection-card">
+                        <a href="flowerBoquet.html"><img
+                                class="img-fit-cover"
+                                src="images/flower-bouquet.jpg"
+                                alt="flower bouquet">
+                            <div class="collection-content">
+                                <span>Flower Bouquet</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collection-card">
+                        <a href="flowerInVase.html"><img
+                                class="img-fit-cover"
+                                src="images/flower-in-vase.jpg"
+                                alt="flower">
+                            <div class="collection-content">
+                                <span>Flower in Vase</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="collection-card">
+                        <a href="customOrder.html"><img
+                                class="img-fit-cover"
+                                src="images/flower-custom-order.jpg"
+                                alt="Customize order">
+                            <div class="collection-content">
+                                <span>Customize Order</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="occasion" id="occasion-section">
+                <h3>CHOOSE BY OCCASION</h3>
+                <div class="occasion-container grid-center">
+                    <div class="occasion-card">
+                        <a href="romantic.html" class="text-no-decor" title="romantic">
+                            <img class="occasion-img img-fit-cover" src="images/romantic.webp" alt="red flowers">
+                            <div class="occasion-label">Romantic</div>
+                        </a>
+                    </div>
+                    <div class="occasion-card">
+                        <a href="celebration.html" class="text-no-decor" title="celebration">
+                            <img class="occasion-img img-fit-cover" src="images/celebrations.webp"  alt="celebrations flowers">                        
+                            <div class="occasion-label">Celebrations</div>
+                         </a>
+                    </div>
+                    <div class="occasion-card">
+                        <a href="sympathy.html" class="text-no-decor" title="sympathy">
+                            <img class="occasion-img img-fit-cover" src="images/symphaty.webp" alt="symphaty-flowers">                        
+                            <div class="occasion-label">Sympathy</div>      
+                        </a>   
+                    </div>
+                    <div class="occasion-card">
+                        <a href="justBecause.html" class="text-no-decor" title="Just Because">
+                            <img class="occasion-img img-fit-cover" src="images/justbecause.webp" alt="any-occasion">    
+                            <div class="occasion-label">Just Because</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="newsletter flex-center">
+        <div class="sub-container">
+            <h2>Join our Newsletter</h2>
+            <p>Subscribe to our newsletter for updates, exclusive offers, and a sprinkle of floral inspiration.</p>
+            <form class="frm-sub flex-center" action="email-confirmation.html">
+                <input type="email" name="email" placeholder="enter your email">
+                <input class="btn-secondary sub-btn" type="submit" name="subscribe" value="SUBSCRIBE">
+            </form>
+        </div>
+    </section>
+
+    <section class="abt-section" id="aboutSection">
+        <div class="abt-container">
+            <img src="images/flower-shop.webp" alt="store-img">
+        </div>
+        <div class="abt-container abt-details flex-center">
+            <h2>About Us</h2>
+            <p>Petal Palette is a haven for floral enthusiasts,
+                where each arrangement is a work of art. With a
+                dedication to elegance and creativity, we infuse
+                every petal with passion to create moments that
+                bloom forever in your heart.</p>
+            <a class="btn-link" href="about.html">LEARN MORE</a>
+            <p></p>
+        </div>
+    </section>
+    <section class="testimonials bg-center-cover">
+        <h2>Client's Testimonials</h2>
+        <div class="testimonial-container flex-center">
+            <div class="testimonial-box">
+                <img class="quote-icon" src="images/quote-icon.png" alt="quote" width="50">
+                <p>I collaborated with Petal Palette for a high-profile event in Manhattan, and their spectacular floral
+                    arrangements, with attention to detail and creativity, truly elevated the ambiance
+                <p>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <img class="client-img" width="110"
+                    src="images/client-1.png"
+                    alt="dr-robert-img">
+                <p class="client-name">SARAH THOMPSON</p>
+                <p class="client-title">Event Planner - New York City</p>
+            </div>
+            <div class="testimonial-box">
+                <img class="quote-icon" src="images/quote-icon.png" alt="quote" width="50">
+                <p>As a bride-to-be, choosing the right florist was crucial for my wedding day. Petal Palette exceeded my expectations! The
+                bridal bouquet was breathtaking, and the centerpieces were exactly what I envisioned
+                <p>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <img class="client-img" width="110"
+                    src="images/client-2.jpg"
+                    alt="dr-robert-img">
+                <p class="client-name">EMILY MARTINES</p>
+                <p class="client-title">Bride-to-be - Austin</p>
+            </div>
+            <div class="testimonial-box">
+                <img class="quote-icon" src="images/quote-icon.png" alt="quote" width="50">
+                <p>I collaborated with Petal Palette for a high-profile event in Manhattan, and their spectacular floral
+                    arrangements, with attention to detail and creativity, truly elevated the ambiance
+                <p>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <img class="client-img" width="130"
+                    src="images/client-3.jpg"
+                    alt="dr-robert-img">
+                <p class="client-name">Dr. Michael Roberts</p>
+                <p class="client-title">Hospital Administrator - Chicago</p>
+            </div>
+        </div>
+    </section>
+    <section class="msgUs-section" id="msgUs-section">
+        <div class="msgUs-container flex-center">
+            <div class="msgUs-box mgsUS-img">
+                <img src="images/message-us-img.jpg"
+                    alt="message-img">
+            </div>
+            <div class="msgUs-box input-box">
+                <h2>Message Us</h2>
+                <form class="msgUs-input flex-center" action="#">
+                    <input class="msgUs-text" type="text" name="name" placeholder="Name">
+                    <input class="msgUs-text" type="text" name="subject" placeholder="Subject">
+                    <textarea class="msgUs-text" rows="4" cols="50" placeholder="Message"></textarea>
+                    <input class="btn-link msgUs-btn" type="submit" value="SEND" ></form>
+                    <div class="msgUs-contact">
+                        <span>Address:</span>
+                        <p>123 Blooming Street, City Ville, Flowerland</p>
+                        <span>Email:</span>
+                        <p>info@petalpalette.com</p>
+                        <span>Phone:</span>
+                        <p>(555) 123-4567</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    </main>
+    <footer>
+        <div class="footer-container flex-center">
+            <div class="footer-box">
+                <img class="footer-logo" src="images/petal-palette-logo.png" alt="petal-palette-logo">
+                <h4>Operationg Hours</h4>
+                <p>Monday to Friday:</p>
+                <p>9:00 AM - 6:00 PM</p>
+                <p>Saturday & Sunday</p>
+                <p>10:00 AM - 4:00 PM</p>
+            </div>
+            <div class="footer-box">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h4>Shop Categories</h4>
+                <ul>
+                    <li><a href="#">Flower Bouquet</a></li>
+                    <li><a href="#">Flower in Vase</a></li>
+                    <li><a href="#">Flower in Box</a></li>
+                    <li><a href="#">Custom Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-box flex-center payment-method">
+                <ul>
+                    <li>
+                        <h4>Payment Method</h4>
+                        <ul class="payment-icon flex-center">
+                            <li><a href="#"><img src="images/visa.webp" alt="visa"></a></li>
+                            <li><a href="#"><img src="images/mastercard.webp" alt="mastercard"></a></li>
+                            <li><a href="#"><img src="images/paypal.webp" alt="Paypal"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Follow Us</h4>
+                        <ul class="socials flex-center">
+                            <li><a href="#"><img src="images/facebook.webp" alt="facebook"></a></li>
+                            <li><a href="#"><img src="images/instagram.webp" alt="Instagram"></a></li>
+                            <li><a href="#"><img src="images/tiktok.webp" alt="Tiktok"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

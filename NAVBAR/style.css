@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 10px 20px;
+}
+.nav-item {
+    width: 100%;
+}
+@media(min-width: 768px){
+    .navbar-nav {
+            width: 50%;
+        }
+}
